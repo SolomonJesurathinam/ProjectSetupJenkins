@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Testing">
+	<listeners>
+		<listener class-name="commonFunctions.CustomListeners"/>
+		<!-- <listener class-name="commonFunctions.TransformLisetener"/>-->
+	</listeners>/
+	
+	<test name= "Login Logout">
+		<classes>
+			<class name="testCases.TC001_Login_Logout"/>
+		</classes>
+	</test>
+	
+	<test name= "Login New Customer Logout">
+		<classes>
+			<class name="testCases.TC002_Login_NewCustomer"/>
+		</classes>
+	</test>
+	
+	<!-- 
+	<test name= "New Customer">
+		<classes>
+			<class name="testCases.TC003_Add_New_Customer"/>
+		</classes>
+	</test>-->
+	
+</suite>	
