@@ -9,7 +9,7 @@ import commonFunctions.ActionDriver;
 
 public class NewCustomer {
 	
-	//testing
+	//testinga
 	
 	WebDriver driver;
 	ActionDriver actionDriver = new ActionDriver();
